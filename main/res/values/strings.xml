@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Laba_4</string>
+    <string name="button">Найти</string>
+    <string name="like">Like</string>
+    <string name="dislike">Dislike</string>
+    <string name="first">Главное окно</string>
+    <string name="second">Понравившиеся</string>
+</resources>

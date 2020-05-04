@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Spinner android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"/>
+    <Button android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/spinner"
+        android:text="@string/button"/>
+    <ListView android:id="@+id/list"
+        android:background="@color/grey"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/spinner"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"/>
+
+
+</RelativeLayout>
